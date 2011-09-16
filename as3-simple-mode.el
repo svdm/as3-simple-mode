@@ -70,8 +70,6 @@
 ;;; Code:
 
 (require 'js)
-(require 'cc-mode)
-
 
 (defgroup as3-simple nil
   "Major mode for editing ActionScript 3 code."
