@@ -92,7 +92,7 @@
      (1 font-lock-keyword-face))
 
    ;; Fontify type identifiers after a semicolon or is/as/instanceof
-   '("\\(?:\\:\\|\\(?:\\(?:as\\|is\\|instanceof\\|new\\)\\s-+\\)\\)\s*\\(\\w+\\)"
+   '("\\(?:\\:\\|\\(?:\\(?:as\\|is\\|instanceof\\|new\\)\\s-+\\)\\)\\(\[*_a-zA-Z0-9]+\\)"
      (1 font-lock-type-face))
 
    ;; Fontify function name and return type
