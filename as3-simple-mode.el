@@ -106,7 +106,7 @@
      (1 '(:underline "red") t))
 
    ;; Variable declarations
-   '("\\<\\(var\\|const\\)\\>\\(?:\\s-+\\(\\sw+\\)\\)?"
+   '("\\<\\(var\\|const\\)\\>\\(?:\\s-+\\(\[_a-zA-Z0-9]+\\)\\)?"
      (1 font-lock-keyword-face t)
      (2 font-lock-variable-name-face nil t))
 
