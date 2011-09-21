@@ -96,7 +96,7 @@
      (1 font-lock-type-face))
 
    ;; Fontify function name and return type
-   '("\\<\\(function\\)\\>\\(?:\\(?:\\s-+\\(?:\\w+\\)\\)*\\s-+\\(\\sw+\\)\\)?\s*(.*)\\s-+\\:\s*\\(\\w+\\|\\*\\)+"
+   '("\\<\\(function\\)\\>\\(?:\\(?:\\s-+\\(?:\\w+\\)\\)*\\s-+\\(\[_a-zA-Z0-9]+\\)\\)?\s*(.*)\\s-+\\:\s*\\(\\w+\\|\\*\\)+"
      (1 font-lock-keyword-face t)
      (2 font-lock-function-name-face nil t)
      (3 font-lock-type-face t))
